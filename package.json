@@ -21,16 +21,16 @@
   },
   "homepage": "https://github.com/kcartlidge/nodepub",
   "dependencies": {
-    "archiver": "^0.14.2",
-    "async": "^2.1.2",
-    "moment": "^2.10.6",
+    "archiver": "^3.0.0",
+    "async": "^2.6.1",
+    "moment": "^2.23.0",
     "underscore": "1.8.x"
   },
   "devDependencies": {
     "chai": "3.2.x",
-    "eslint": "^3.8.1",
-    "jasmine": "^2.4.1",
-    "jasmine-node": "^1.14.5",
+    "eslint": "^3.19.0",
+    "jasmine": "^2.99.0",
+    "jasmine-node": "^1.16.2",
     "sinon": "1.16.x"
   }
 }
