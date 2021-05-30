@@ -59,7 +59,7 @@ var structural = {
 		result += "	<manifest>[[EOL]]";
 		result += "		<item id='cover-image' media-type='image/png' href='images/cover.png'/>[[EOL]]";
 		result += "		<item id='cover' media-type='application/xhtml+xml' href='cover.xhtml'/>[[EOL]]";
-		result += "		<item id='navigation' media-type='application/x-dtbncx+xml' href='navigation.ncx'/>[[EOL]]";
+		result += "		<item id='ncx' media-type='application/x-dtbncx+xml' href='navigation.ncx'/>[[EOL]]";
 
 		for (i = 1; i <= document.sections.length; i++) {
 			result += "		<item id='s" + i + "' media-type='application/xhtml+xml' href='content/s" + i + ".xhtml'/>[[EOL]]";
